@@ -1,6 +1,5 @@
 class Circle:
 
-    
     def calculate_area(self):
         print(3.14*self.radius**2)
         
