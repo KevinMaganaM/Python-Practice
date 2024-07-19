@@ -1,4 +1,6 @@
-secret_number = 8
+import random
+
+secret_number = random.randint(1,10)
 guess_count = 0
 guess_limit = 3
 
@@ -11,3 +13,4 @@ while guess_count < guess_limit:
         break
 else:
     print('Sorry, you failed!')
+    print(f"The secret number is {secret_number}")
